@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>DONATIONS AND FUNDS</title>
+
+  </head>
+
+  <body>
+
+    <main class="working-area">
+      
+      <section class="nav-area">
+
+        <nav class="navbar">
+
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="text-primary">Donate</span></a>
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="donations.html">Donations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+
+        </nav>
+       
+      </section>
+      
+      <div class="background"></div>
+
+      <section>
+        
+        <div class="donating">
+  
+          <form id="donationForm" method="POST" action="" >
+
+            <p><h1 class="donate_us">DONATE TO US TODAY</h1></p>
+
+           <!-- Name input-->
+           <label id="donator" for="name">Full name</label>
+           <input id="donator_name" type="text" data-sb-validations="required" />
+           
+       <!-- Email address input-->
+           <label id="donator" for="email">Email address</label>
+           <input id="donator_email" type="email" data-sb-validations="required,email" />
+
+       <!-- Amount input-->
+           <label id="donator" for="amount">Amount to Donate</label>
+           <input id="donator_amount" type="number" placeholder="GHS 0.00" data-sb-validations="required">
+
+           <label id="donator" for="payment">Payment Method</label>
+           <select class="payment_options">
+            <option value="initial" class="initial">Select payment option</option>
+            <option value="visa">Visa Card</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="expressPay">expressPay</option>
+            <option value="Myghpay">Myghpay</option>
+            <option value="iPay">iPay</option>
+           </select>
+
+           <p class="or">OR</p>
+
+           <h3 class="payment">Pay Using Mobile Money</h3>
+
+           <p class="details">
+            <span class="notes">Name: </span>Fusion Academy
+           </p>
+
+           <p class="details">
+            <span class="notes">Mobile Money Network: </span>MTN
+           </p>
+
+           <p class="details">
+            <span class="notes">Mobile Money Number: </span>0541718326
+           </p>
+          
+       <!-- Submit Button-->
+       <div class="submit-btn"><button class="donate_btn" id="submitButton" type="submit" value="Donate">Donate</button></div>
+          </form>
+    </div> 
+
+<div class="top"></div>
+      </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
